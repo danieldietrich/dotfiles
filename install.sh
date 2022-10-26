@@ -6,7 +6,7 @@
 echo "Installing dotfiles..."
 
 TMP_DIR=$(mktemp -d)
-CURRENT_DIR=$PWD
+CURRENT_DIR=$(dirname "$0")
 
 cd "$TMP_DIR" || exit 1
 
