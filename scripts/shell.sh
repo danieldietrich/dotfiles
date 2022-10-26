@@ -1,7 +1,3 @@
 #!/bin/sh
 
-if ! zsh_bin=$(which zsh); then
-    exit $?
-fi
-
-chsh -s "$zsh_bin"
+sudo chsh -s "$(which zsh)" "$(whoami)"
