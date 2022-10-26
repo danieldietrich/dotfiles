@@ -10,7 +10,7 @@ CURRENT_DIR=$PWD
 
 cd "$TMP_DIR" || exit 1
 
-for script in ~/.dotfiles/scripts/*; do
+for script in "$CURRENT_DIR"/scripts/*; do
   bash "$script"
 done
 
