@@ -2,8 +2,16 @@
 
 ## Usage
 
-Go to [gitpod.io](https://gitpod.io/) -> settings -> preferences and add the following URL to the dotfiles field:
+### VS Code
 
-```md
-https://github.com/danieldietrich/dotfiles
-```
+Go to settings `⌘,` search dotfiles and set repository `danieldietrich/dotfiles`.
+
+_This setting is not synced, it needs to be set in GitHub Codespaces separately._
+
+### GitHub Codespaces
+
+Go to [GitHub Codespaces Settings](https://github.com/settings/codespaces) and select "Automatically install dotfiles" `danieldietrich/dotfiles`.
+
+### Gitpod
+
+Go to [Gitpod User Preferences](https://gitpod.io/user/preferences) and set dotfiles: `https://github.com/danieldietrich/dotfiles`.
