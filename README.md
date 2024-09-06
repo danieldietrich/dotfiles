@@ -1,4 +1,4 @@
-# [Gitpod dotfiles](https://www.gitpod.io/docs/configure/user-settings/dotfiles)
+# dotfiles
 
 ## Usage
 
